@@ -1,0 +1,27 @@
+main:
+  - name: "About"
+    url: "/about/"
+    weight: 1
+  - name: "Directions"
+    url: "/directions/"
+    weight: 3
+  - name: "Contact"
+    url: "/contact/"
+    weight: 4
+  - name: "Patient Tools"
+    url: "/patient-tools/"
+    weight: 5
+  - name: "Services"
+    url: "/services/"
+    weight: 5
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2
+  - name: "Privacy Policy"
+    url: "/privacy-policy"
+    weight: 3

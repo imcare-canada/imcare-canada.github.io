@@ -1,0 +1,46 @@
+.page-teams {
+  .team {
+    max-width: 400px;
+  }
+  .team-summary {
+
+    
+    .team-meta {
+      h2 {
+        margin: 0;
+        font-size: 25px;
+        font-weight: normal;
+      }
+      p {
+        color: $black;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+    h2 {
+      color: $primary !important;
+    }
+    .team-content {
+      margin-top: 20px;
+    }
+  }
+
+  .team-summary-large {
+    background-color: $white-offset;
+    padding: 15px;
+    border-radius: 3px;
+    .team-image {
+      height: 100%;
+      width: 100%;
+      margin-right: 20px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        aspect-ratio: 0.90; overflow: hidden;
+        object-fit: cover;
+      }
+    }
+  }
+}
