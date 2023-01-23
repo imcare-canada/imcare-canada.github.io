@@ -1,2 +1,16 @@
 .page-home {
+    .strip {
+        padding-top: 100px;
+    }
+    .strip h2 {
+        margin-bottom: 0;
+        color: #9d2940;
+        font-size: 24pt;
+        font-family: $font-family-heading;
+        padding-bottom: 10px;
+
+    }
+    .home-modules {
+        text-align: center;
+    }
 }
