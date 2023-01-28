@@ -83,25 +83,25 @@
       elements:
 
         - name: Stroke Warning Signs
-          link: assets/pdf/stroke_warning_signs.pdf
+          link: /assets/pdf/stroke_warning_signs.pdf
 
         - name: Control Your Blood Pressure
-          link: assets/pdf/control_your_blood_pressure.pdf
+          link: /assets/pdf/control_your_blood_pressure.pdf
 
         - name: Control Your Cholesterol
           link: https://food-guide.canada.ca/en/
         
         - name: Control Your Diabetes
-          link: assets/pdf/control_your_diabetes.pdf
+          link: /assets/pdf/control_your_diabetes.pdf
 
         - name: Control Your Weight
-          link: assets/pdf/control_your_weight.pdf
+          link: /assets/pdf/control_your_weight.pdf
 
         - name: Become Smoke Free
-          link: assets/pdf/become_smoke_free.pdf
+          link: /assets/pdf/become_smoke_free.pdf
 
         - name: Living Well with Heart Disease
-          link: assets/pdf/living_well_with_diabetes.pdf
+          link: /assets/pdf/living_well_with_diabetes.pdf
 
         - name: Pacemaker Implantation
           link: https://www.ottawaheart.ca/pacemaker-implantation-patient-guide
