@@ -45,3 +45,21 @@
   padding-top: 100px;
   padding-bottom: 30px;
 }
+
+.section-title {
+  font-family: $font-family-heading !important;
+  color: #9E2940 !important;
+  font-size: 2em !important;
+
+}
+.subsection ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+
+}
+
+.subsection ul li {
+  padding-bottom: 5px;  
+  color: #9E2940;
+}

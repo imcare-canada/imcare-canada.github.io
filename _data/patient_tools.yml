@@ -1,4 +1,189 @@
-- category_name: "Trackers"
-  elements:
-    - name: Blood Pressure
-      link: https://hershbhargava.com
+- name: Heart & Brain
+  subsections:
+    - name: Web Resources
+      elements:
+        - name: Angina
+          link: https://watchlearnlive.heart.org/?moduleSelect=angina
+        - name: Angiogram
+          link: https://watchlearnlive.heart.org/?moduleSelect=angiog
+
+        - name: Angioplasty
+          link: https://watchlearnlive.heart.org/?moduleSelect=angiop
+
+        - name: Atrial Fibrillation
+          link: https://www.ottawaheart.ca/living-atrial-fibrillation
+
+        - name: Personalized Risk Assessment
+          link: https://hershbhargava.com
+
+        - name: Coronary Artery Disease
+          link: https://www.ottawaheart.ca/coronary-artery-disease-patient-guide
+
+        - name: Diabetes Medications
+          link: https://www.ottawaheart.ca/patients-visitors/tools-resources/patient-guides/diabetes-medications
+
+        - name: Heart Failure
+          link: https://www.ottawaheart.ca/heart-failure-patient-guide
+
+        - name: Cardiac Catheterization & Angioplasty
+          link: https://www.ottawaheart.ca/cardiac-catheterization-angioplasty-guide
+
+        - name: Complex Ablation
+          link: https://www.ottawaheart.ca/complex-ablation-patient-guide
+
+        - name: Electrophysiology Studies and Standard Ablation
+          link: https://www.ottawaheart.ca/electrophysiology-studies-and-standard-ablation-guide
+
+        - name: Heart Transplant
+          link: https://www.ottawaheart.ca/heart-transplant
+
+        - name: Implantable Cardioverter
+          link: https://www.ottawaheart.ca/implantable-cardioverter-defibrillator-patient-guide
+
+        - name: Implantable Defribrillator
+          link: https://www.ottawaheart.ca/implantable-cardioverter-defibrillator-patient-guide
+
+        - name: Mitraclip
+          link: https://www.ottawaheart.ca/mitraclip-patient-guide
+
+        
+    - name: Video Education
+      elements:
+        - name: Artery Getting Blocked
+          link: https://vimeo.com/197539682
+
+        - name:  Heart Attack (Blockage)
+          link: https://vimeo.com/197539560
+
+        - name: Atrial Fibrillation
+          link: https://www.youtube.com/watch?v=HyQjpQf_eME
+
+        - name: Congestive Heart Failure
+          link: https://www.youtube.com/watch?v=GnpLm9fzYxU
+
+        - name: Women & Heart Attack
+          link: https://www.youtube.com/watch?v=t7wmPWTnDbE
+
+        - name: Pacemaker & Defribrillator
+          link: https://www.youtube.com/watch?v=SMXBR_YFocs
+
+        - name: Signs of a Stroke
+          link: https://www.youtube.com/watch?v=HUjYQBFoRqo
+
+        - name: Forks Over Knives Movie
+          link: https://vimeo.com/ondemand/forksoverknives
+
+        - name: Stress Test
+          link: https://www.youtube.com/watch?v=Po1QwMsCorU
+
+        - name: Holter Monitor
+          link: https://www.youtube.com/watch?v=u3Lr3P6eZh0
+
+    - name: Handouts
+      elements:
+
+        - name: Stroke Warning Signs
+          link: assets/pdf/stroke_warning_signs.pdf
+
+        - name: Control Your Blood Pressure
+          link: assets/pdf/control_your_blood_pressure.pdf
+
+        - name: Control Your Cholesterol
+          link: https://food-guide.canada.ca/en/
+        
+        - name: Control Your Diabetes
+          link: assets/pdf/control_your_diabetes.pdf
+
+        - name: Control Your Weight
+          link: assets/pdf/control_your_weight.pdf
+
+        - name: Become Smoke Free
+          link: assets/pdf/become_smoke_free.pdf
+
+        - name: Living Well with Heart Disease
+          link: assets/pdf/living_well_with_diabetes.pdf
+
+        - name: Pacemaker Implantation
+          link: https://www.ottawaheart.ca/pacemaker-implantation-patient-guide
+
+        - name: Recovering from Cardiac Surgery
+          link: https://www.ottawaheart.ca/recovering-cardiac-surgery
+
+        - name: TAVI (Transcatheter Aortic Valve Implant)
+          link: https://www.ottawaheart.ca/tavi-transcatheter-aortic-valve-implant-guide
+
+        - name: Therapeutic Hypothermia
+          link: https://www.ottawaheart.ca/therapeutic-hypothermia-patient-guide
+
+        - name: Waiting for Cardiac Surgery
+          link: https://www.ottawaheart.ca/waiting-cardiac-surgery
+
+        - name: Cardiac Rehabilitation– Physical Activity
+          link: https://www.ottawaheart.ca/cardiac-rehabilitation-physical-activity-guide
+
+        - name: Heart Healthy Living
+          link: https://www.ottawaheart.ca/patients-visitors/tools-resources/patient-guides/heart-healthy-living-guide
+
+- name: Skin
+  subsections:
+    - name: Web Resources
+      elements:
+        - name: Actinic Keratosis
+          link: https://www.skincancer.org/skin-cancer-information/actinic-keratosis/
+
+        - name: Acne
+          link: https://www.aad.org/public/diseases/acne/skin-care/tips
+
+        - name: Melanoma Warning Signs
+          link: https://www.skincancer.org/skin-cancer-information/melanoma/melanoma-warning-signs-and-images/
+
+        - name: Sunburn
+          link: https://www.aad.org/public/everyday-care/injured-skin/burns/treat-sunburn
+
+        - name: Contact Dermatitis
+          link: https://www.healthline.com/health/contact-dermatitis
+        
+        - name: ABC of Melanoma
+          link: https://www.aad.org/public/diseases/skin-cancer/find/at-risk/abcdes
+
+        - name: What to expect during a skin cancer check?
+          link: https://health.clevelandclinic.org/skin-cancer-screening-what-to-expect-during-a-full-body-skin-exam/
+
+        - name: How to take photos of skin conditions for a virtual visit
+          link: https://www.dermpics.com/home
+
+        - name: Self Skin Examination
+          link: https://www.aad.org/public/diseases/skin-cancer/find/at-risk/mole-map
+
+        - name: Eczema
+          link: https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis
+
+        - name: Hair Loss
+          link: https://nyulangone.org/conditions/hair-loss/types
+
+    - name: Video Education
+      elements:
+        - name: Sensitive Skin
+          link: https://www.youtube.com/watch?v=IBdTnBtWGgg
+
+        - name: Self Skin Exam
+          link: https://www.youtube.com/watch?v=QlbRfcVBsnI
+
+        - name: Actinic Keratosis
+          link: https://www.youtube.com/watch?v=Pl9SyyWINiU
+
+    - name: Handouts
+      elements:
+        - name: handout1
+          link: link1
+
+
+- name: Bone Health
+  subsections:
+    - name: Web Resources
+      elements:
+        - name: Exercise for Bone Health
+          link: https://osteoporosis.ca/exercise'
+
+        - name: Nutritious Recipes for Bone Health
+          link: https://osteoporosis.ca/recipes
