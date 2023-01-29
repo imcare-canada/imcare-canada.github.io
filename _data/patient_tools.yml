@@ -134,6 +134,9 @@
         - name: Acne
           link: https://www.aad.org/public/diseases/acne/skin-care/tips
 
+        - name: Skin care for acne patients
+          link: https://www.aad.org/public/diseases/acne/skin-care/habits-stop
+
         - name: Melanoma Warning Signs
           link: https://www.skincancer.org/skin-cancer-information/melanoma/melanoma-warning-signs-and-images/
 
@@ -174,9 +177,20 @@
 
     - name: Handouts
       elements:
-        - name: handout1
-          link: link1
+        - name: Alopecia/Hairloss
+          link: /assets/pdf/alopecia_hairloss.pdf
 
+        - name: Managing your hair loss
+          link: /assets/pdf/managing_hair_loss.pdf
+
+        - name: Basal Cell Skin Cancer
+          link: /assets/pdf/basal_cell_carcinoma.pdf
+
+        - name: Prevention of Skin Cancer
+          link: /assets/pdf/prevention_of_skin_cancer.pdf
+
+        - name: Squamous Cell Carcinoma
+          link: /assets/pdf/squamous_cell_carcinoma.pdf
 
 - name: Bone Health
   subsections:
