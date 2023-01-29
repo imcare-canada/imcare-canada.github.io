@@ -19,12 +19,11 @@ head_content: |
     <div class="col-12 col-md-8">
     <p>IMCare offers a variety of cardiac services including</p>
     <ul>
-        <li>Stress testing</li>
-        <li>Echocardiography</li>
-        <li>Holter monitoring</li>
         <li>Consultations</li>
-        <li>Virtual cardiac rehab</li>
-        <li>Cardiac wellness program</li>
+        <li>Echocardiography <a href="https://vimeo.com/198499977" target="_blank">(video)</a></li>
+        <li>Holter monitoring <a href="https://vimeo.com/181705894" target="_blank">(video)</a></li>
+        <li>Virtual cardiac rehab <a href="{{ '/assets/pdf/pace_180.pdf' | relative_url }}" target="_blank">(handout)</a></li>
+        <li>Cardiac wellness program <a href="{{ '/assets/pdf/pace_180.pdf' | relative_url }}" target="_blank">(handout)</a></li>
     </ul>
     </div>
   </div>
@@ -38,6 +37,7 @@ head_content: |
         <li>Skin cancer screening</li>
         <li>Cryotherapy (liquid nitrogen treatment)</li>
         <li>Skin cancer screenig</li>
+        <li>Patch testing <a href="{{ '/assets/pdf/patch_testing.pdf' | relative_url }}" target="_blank">(handout)</a></li>
     </ul>
     </div>
   </div>
