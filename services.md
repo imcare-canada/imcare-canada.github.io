@@ -29,16 +29,20 @@ head_content: |
   </div>
   <div class="row">
     <div class="col-12 col-md-4">
-    <h2>Skin Care and Prevention</h2>
+    <h2>Medical Skin Care</h2>
     </div>
     <div class="col-12 col-md-8">
     <p>IMCare offers a variety of dermatological services including</p>
     <ul>
         <li>Skin cancer screening</li>
         <li>Cryotherapy (liquid nitrogen treatment)</li>
-        <li>Skin cancer screenig</li>
+        <li>Skin cancer screening</li>
         <li>Patch testing <a href="{{ '/assets/pdf/patch_testing.pdf' | relative_url }}" target="_blank">(handout)</a></li>
-    </ul>
+        <li>Skin biopsy</li>
+        <li>Bacterial and fungal cultures</li>
+        <li>Skin scrapings for microscopic examination</li>
+        <li>Wood's light examination</li>
+   </ul>
     </div>
   </div>
 </div>
