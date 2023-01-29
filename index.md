@@ -17,7 +17,7 @@ IMCare was founded in 2012 in Cobourg, Ontario by Dr. Mukesh Bhargava and Dr. An
 
 ## Hybrid Care Model
 
-It is our goal to provide our patients with the best care possible. With this in mind, we can schedule in-person and remote appointments depending on patient preference and the nature of the appointment. **Please note that all appointmnets with Dr. Sharma will be at our Port Hope office.** Please don't hesitate to <a href="">contact us</a> if you have any questions.
+It is our goal to provide our patients with the best care possible. With this in mind, we can schedule in-person and remote appointments depending on patient preference and the nature of the appointment. **Please note that all appointments with Dr. Sharma will be at our Port Hope office.** Please don't hesitate to <a href="">contact us</a> if you have any questions.
 
 ## Words from our Patients
 

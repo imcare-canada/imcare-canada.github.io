@@ -29,6 +29,8 @@ head_content: |
   </div>
   <div class="row">
     <div class="col-12 col-md-4">
+
+    
     <h2>Medical Skin Care</h2>
     </div>
     <div class="col-12 col-md-8">
