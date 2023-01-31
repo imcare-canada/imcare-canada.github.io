@@ -8,9 +8,9 @@ intro_image_hide_on_mobile: false
 head_content: |
     # Getting to <span style='color: #9d2940'>IMCare</span>.
 
-    ## We have offices in Cobourg and Port Hope, Ontario. Make sure you come to the location where your appointment is scheduled..
+    ## Our office is in Port Hope, Ontario. We look forward to seeing you!
 ---
-<div class="col-12 col-md-6 mb-1 home-modules">
+<!-- <div class="col-12 col-md-6 mb-1 home-modules">
 <div class="service service-summary">
     <div class="service-content">
     <h2 class="service-title">Cobourg Office</h2>
@@ -25,9 +25,9 @@ head_content: |
     <br>
     </div>
 </div>
-</div>
+</div> -->
 
-<div class="col-12 col-md-6 mb-1 home-modules">
+<!-- <div class="col-12 col-md-6 mb-1 home-modules"> -->
 <div class="service service-summary">
     <div class="service-content">
     <h2 class="service-title">Port Hope Office</h2>
@@ -40,4 +40,4 @@ head_content: |
     <i>Located behind Independent grocer.</i>
     </div>
 </div>
-</div>
+<!-- </div> -->

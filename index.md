@@ -15,9 +15,7 @@ head_content: |
 ## Our Origins
 IMCare was founded in 2012 in Cobourg, Ontario by Dr. Mukesh Bhargava and Dr. Anuja Sharma. Our staff and healthcare professionals strive for excellence in the care of their patients. Our physicians specialize in providing care to adults with focus on cardiovascular diseases, skin diseases, diabetes, TIA, and stroke. 
 
-## Hybrid Care Model
-
-It is our goal to provide our patients with the best care possible. With this in mind, we can schedule in-person and remote appointments depending on patient preference and the nature of the appointment. **Please note that all appointments with Dr. Sharma will be at our Port Hope office.** Please don't hesitate to <a href="">contact us</a> if you have any questions.
+**Please don't hesitate to <a href="/contact">contact us</a> if you have any questions.**
 
 ## Words from our Patients
 

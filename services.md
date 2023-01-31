@@ -7,7 +7,7 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 head_content: |
     # IMCare <span style='color: #9d2940'>Services</span>
-
+    We provide a variety of services at IMCare. We are dedicated to providing the highest possible quality of care.
 ---
 
 

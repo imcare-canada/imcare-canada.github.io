@@ -1,5 +1,5 @@
 main:
-  - name: "About"
+  - name: "Team"
     url: "/about/"
     weight: 1
   - name: "Directions"
