@@ -12,7 +12,7 @@ head_content: |
 ---
 
 
-## Our Origins
+## Origins of IMCare
 IMCare was founded in 2012 in Cobourg, Ontario by Dr. Mukesh Bhargava and Dr. Anuja Sharma. Our staff and healthcare professionals strive for excellence in the care of their patients. Our physicians specialize in providing care to adults with focus on cardiovascular diseases, skin diseases, diabetes, TIA, and stroke. 
 
 **Please don't hesitate to <a href="/contact">contact us</a> if you have any questions.**
