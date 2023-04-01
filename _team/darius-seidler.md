@@ -1,6 +1,6 @@
 ---
-title: "Darius Seidler"
-image: "images/team/khalid-pasha.jpg"
+title: "Darius Seidler, M.D."
+image: "images/team/darius-seidler.jpg"
 jobtitle: "Physician"
 promoted: true
 weight: 4
