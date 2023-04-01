@@ -40,6 +40,6 @@ head_content: |
     <i>Located behind Independent grocer.</i>
     </div>
 </div>
-
+<br>
 <div style="max-width:100%;overflow:hidden;color:red;width:750px;height:500px;"><div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=IMCare,+Henderson+Street,+Port+Hope,+ON,+Canada&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="our-googlemap-code" href="https://kbj9qpmy.com/bp" id="grab-maps-authorization">Internet Provider</a><style>#google-maps-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
 <!-- </div> -->
