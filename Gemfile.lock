@@ -62,12 +62,12 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  universal-darwin-22
   x86_64-darwin-21
 
 DEPENDENCIES
   jekyll (~> 4.2)
   jekyll-environment-variables
-  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.25

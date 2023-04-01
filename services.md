@@ -22,15 +22,14 @@ head_content: |
         <li>Consultations</li>
         <li>Echocardiography <a href="https://vimeo.com/198499977" target="_blank">(video)</a></li>
         <li>Holter monitoring <a href="https://vimeo.com/181705894" target="_blank">(video)</a></li>
-        <li>Virtual cardiac rehab <a href="{{ '/assets/pdf/pace_180.pdf' | relative_url }}" target="_blank">(handout)</a></li>
-        <li>Cardiac wellness program <a href="{{ '/assets/pdf/pace_180.pdf' | relative_url }}" target="_blank">(handout)</a></li>
+        <li>Cardiac Stress Testing <a href="https://vimeo.com/198500638" target="_blank">(video)</a></li>
+        <li>Ambulatory Blood Pressure Monitoring</li>
+
     </ul>
     </div>
   </div>
   <div class="row">
-    <div class="col-12 col-md-4">
-
-    
+    <div class="col-12 col-md-4"> 
     <h2>Medical Skin Care</h2>
     </div>
     <div class="col-12 col-md-8">
@@ -44,6 +43,20 @@ head_content: |
         <li>Bacterial and fungal cultures</li>
         <li>Skin scrapings for microscopic examination</li>
         <li>Wood's light examination</li>
+   </ul>
+    </div>
+  </div>
+<br>
+<br>
+  <div class="row">
+    <div class="col-12 col-md-4"> 
+    <h2>Pulmonary Medicine</h2>
+    </div>
+    <div class="col-12 col-md-8">
+    <p>IMCare offers a variety of pulmonary and respiratory care services including</p>
+    <ul>
+        <li>Pulmonary consultation</li>
+        <li>Pulmonary function test (PFT) interpretation</li>
    </ul>
     </div>
   </div>
