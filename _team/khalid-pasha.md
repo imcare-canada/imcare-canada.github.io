@@ -1,7 +1,7 @@
 ---
 title: "Khalid Pasha, M.D."
 image: "images/team/khalid-pasha.jpg"
-jobtitle: "Physician"
+jobtitle: "Cardiologist"
 promoted: true
 weight: 4
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Darius Seidler, M.D."
 image: "images/team/darius-seidler.jpg"
-jobtitle: "Physician"
+jobtitle: "Respirologist"
 promoted: true
 weight: 4
 ---
