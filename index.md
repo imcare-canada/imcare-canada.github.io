@@ -13,10 +13,23 @@ head_content: |
 ---
 
 
-## Origins of IMCare
-IMCare was founded in 2012 in Cobourg, Ontario by Dr. Mukesh Bhargava and Dr. Anuja Sharma. Our staff and healthcare professionals strive for excellence in the care of their patients. Our physicians specialize in providing care to adults with focus on cardiovascular diseases, skin diseases, diabetes, TIA, and stroke. 
+## About IMCare
+
+We are dedicated to providing our patients with the highest quality of care possible.
+
+**Specialist Care**: IMCare's Specialists are dedicated to providing patients with continuous and comprehensive care. They address a wide range of health concerns, from acute illnesses to chronic conditions, and work closely with their patients to develop personalized care plans.
+
+**Specialist Referrals**: When patients require specialized care, IMCare's network of skilled specialists ensures that they receive the best possible treatment. .
+
+**Telemedicine**: In an effort to make healthcare more accessible, IMCare offers telemedicine services that allow patients to consult with their healthcare providers remotely. This convenient service is available for a wide range of non-emergency conditions and follow-up appointments.
+
+**Preventive Care**: IMCare is committed to promoting preventive care. Their proactive approach helps patients maintain their health and avoid potential health issues.
+
+**Diagnostic Services**: IMCare's state-of-the-art diagnostic facilities provide patients with accurate and timely results, ensuring the appropriate management and treatment of medical conditions. Their diagnostic services include Cardiac Ultrasound (Echocardiography), Cardiac Stress Testing, Holter Monitoring, Ambulatory Blood pressure Monitoring, Allergy Patch Testing, and Ankle Brachial Index.
 
 **Please don't hesitate to <a href="/contact">contact us</a> if you have any questions.**
+
+<br>
 
 {% include mailinglist.html%}
 <br>
