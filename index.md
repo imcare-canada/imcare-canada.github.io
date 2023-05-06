@@ -31,7 +31,6 @@ We are dedicated to providing our patients with the highest quality of care poss
 
 <br>
 
-{% include mailinglist.html%}
 <br>
 
 ## Words from our Patients

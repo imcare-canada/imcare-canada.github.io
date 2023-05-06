@@ -17,12 +17,18 @@
     </div> -->
 
   </div>
-    {% if include.show_button %}
+     {% if include.show_button %}
       <div class="call-box-bottom">
         <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
         <a href="/assets/pdf/IMCare_referral_form.pdf" target="_blank" class="button">Referral Form</a>
 
       </div>
+
+    
     {% endif %}
+    <div class="call-box-bottom b2">
+    <strong>Sign up for our Mailing List</strong>
+    </div>
+    {%include mailinglist.html%}
 
 </div>

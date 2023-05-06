@@ -21,6 +21,14 @@
     @include media-breakpoint-up(md) {
     }
   }
+  .ml-form-embedBody {
+    padding-top: 0px !important;
+  }
+  .b2 {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    width: 100%;
+  }
   .call-box-bottom {
     flex: auto;
     padding: 20px;
