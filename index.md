@@ -18,6 +18,10 @@ IMCare was founded in 2012 in Cobourg, Ontario by Dr. Mukesh Bhargava and Dr. An
 
 **Please don't hesitate to <a href="/contact">contact us</a> if you have any questions.**
 
+{% include mailinglist.html%}
+<br>
+
 ## Words from our Patients
 
 {% include carousel.html%}
+
