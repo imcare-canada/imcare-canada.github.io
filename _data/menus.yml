@@ -22,6 +22,6 @@ footer:
   - name: "Contact"
     url: "/contact/"
     weight: 2
-  # - name: "Privacy Policy"
-  #   url: "/privacy-policy"
-  #   weight: 3
+  - name: "Privacy Policy"
+    url: "/assets/pdf/IMCare_privacy_policy.pdf"
+    weight: 3
