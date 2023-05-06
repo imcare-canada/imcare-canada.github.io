@@ -9,6 +9,7 @@ show_call_box: true
 head_content: |
     # Welcome to <span style='color: #9d2940'>IMCare</span>.
     ## We are Internal Medicine specialists based in  <span style='color: #9d2940'>Port Hope, Ontario, Canada</span>. We see patients in-person and virtually.
+
 ---
 
 
