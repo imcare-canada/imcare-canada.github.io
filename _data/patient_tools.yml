@@ -1,9 +1,21 @@
+- name: Decision Making
+  subsections:
+    - name: Web Resources
+      elements:
+        - name: Alphabetical List of Decision Aids by Topic
+          link: https://decisionaid.ohri.ca/AZlist.html
+        - name: Ottawa Personal Decision Guide
+          link: https://decisionaid.ohri.ca/docs/das/OPDG.pdf
+        - name: Ottawa Personal Decision Guide for Two
+          link: https://decisionaid.ohri.ca/docs/das/OPDGx2.pdf
+
 - name: Heart & Brain
   subsections:
     - name: Web Resources
       elements:
         - name: Angina
           link: https://watchlearnlive.heart.org/?moduleSelect=angina
+          
         - name: Angiogram
           link: https://watchlearnlive.heart.org/?moduleSelect=angiog
 
