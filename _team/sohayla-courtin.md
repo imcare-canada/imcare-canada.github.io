@@ -1,6 +1,6 @@
 ---
-title: "Sohayla Courtain"
-image: "images/team/sohayla-courtain.jpg"
+title: "Sohayla Courtin"
+image: "images/team/sohayla-courtin.jpg"
 jobtitle: "Medical Coordinator"
 promoted: true
 weight: 6
