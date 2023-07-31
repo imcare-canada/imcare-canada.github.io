@@ -2,6 +2,8 @@
   subsections:
     - name: Web Resources
       elements:
+        - name: NIH Health Topics A-Z
+          link: https://www.nccih.nih.gov/health/atoz
         - name: Alphabetical List of Decision Aids by Topic
           link: https://decisionaid.ohri.ca/AZlist.html
         - name: Ottawa Personal Decision Guide
