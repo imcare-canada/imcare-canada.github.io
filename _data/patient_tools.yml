@@ -60,6 +60,9 @@
         - name: Mitraclip
           link: https://www.ottawaheart.ca/mitraclip-patient-guide
 
+        - name: Portfolio diet
+          link: assets/pdf/portfolio_diet.pdf
+
         
     - name: Video Education
       elements:
