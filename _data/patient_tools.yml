@@ -60,9 +60,6 @@
         - name: Mitraclip
           link: https://www.ottawaheart.ca/mitraclip-patient-guide
 
-        - name: Portfolio diet
-          link: assets/pdf/portfolio_diet.pdf
-
         
     - name: Video Education
       elements:
@@ -140,6 +137,9 @@
 
         - name: Heart Healthy Living
           link: https://www.ottawaheart.ca/patients-visitors/tools-resources/patient-guides/heart-healthy-living-guide
+
+        - name: Portfolio diet
+          link: assets/pdf/portfolio_diet.pdf
 
 - name: Skin
   subsections:
