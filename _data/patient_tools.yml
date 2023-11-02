@@ -2,6 +2,8 @@
   subsections:
     - name: Web Resources
       elements:
+        - name: Symptom Recognition Checklist
+          link: /assets/pdf/symptom_recognition_checklist.pdf
         - name: NIH Health Topics A-Z
           link: https://www.nccih.nih.gov/health/atoz
         - name: Alphabetical List of Decision Aids by Topic
@@ -95,7 +97,12 @@
 
     - name: Handouts
       elements:
+        - name: Blood Pressure Self Managemtn Checklist
+          link: /assets/pdf/blood_pressure_self_management_checklist.pdf
 
+        - name: Heart Function Self Management Checklist
+          link: /assets/pdf/heart_function_self_management_checklist.pdf
+          
         - name: Stroke Warning Signs
           link: /assets/pdf/stroke_warning_signs.pdf
 
