@@ -59,9 +59,8 @@
         - name: Implantable Defribrillator
           link: https://www.ottawaheart.ca/implantable-cardioverter-defibrillator-patient-guide
 
-        - name: Mitraclip
-          link: https://www.ottawaheart.ca/mitraclip-patient-guide
-
+        - name: Lp(a) Clinical Guidance
+          link: https://www.lpaclinicalguidance.com/
         
     - name: Video Education
       elements:
@@ -72,7 +71,7 @@
           link: https://vimeo.com/197539560
 
         - name: Atrial Fibrillation
-          link: https://www.youtube.com/watch?v=fHM2s44V85s
+          link: https://youtu.be/TJep5K7SGDw?si=sIMIsiOIeA6xYGJo
 
         - name: Congestive Heart Failure
           link: https://www.youtube.com/watch?v=GnpLm9fzYxU
