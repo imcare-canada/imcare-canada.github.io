@@ -10,6 +10,8 @@ head_content: |
     # Welcome to <span style='color: #9d2940'>IMCare</span>.
     ## We are Internal Medicine specialists based in  <span style='color: #9d2940'>Port Hope, Ontario, Canada</span>. We see patients in-person and virtually.
 
+    ## To send a secure message to your healthcare provider, please use the <a href="https://ocean.cognisantmd.com/intake/patients.html?eReqRef=2638cce1-20df-4ec3-a828-aaf88f0844c0#/eRequest">Patient Portal</a>.
+
 ---
 
 
