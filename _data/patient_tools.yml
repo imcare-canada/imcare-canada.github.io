@@ -96,7 +96,7 @@
 
     - name: Handouts
       elements:
-        - name: Blood Pressure Self Managemtn Checklist
+        - name: Blood Pressure Self Management Checklist
           link: /assets/pdf/blood_pressure_self_management_checklist.pdf
 
         - name: Heart Function Self Management Checklist
