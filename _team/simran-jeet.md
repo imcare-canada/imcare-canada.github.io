@@ -1,6 +1,6 @@
 ---
 title: "Simran Jeet"
-image: ""
+image: "images/team/placeholder.png"
 jobtitle: "Medical Coordinator"
 promoted: true
 weight: 9

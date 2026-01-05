@@ -1,6 +1,6 @@
 ---
 title: "Fatema Mofid"
-image: ""
+image: "images/team/placeholder.png"
 jobtitle: "Cardiac Sonographer"
 promoted: true
 weight: 9

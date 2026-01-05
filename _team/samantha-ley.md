@@ -1,6 +1,6 @@
 ---
 title: "Samantha Ley"
-image: ""
+image: "images/team/placeholder.png"
 jobtitle: "Medical Coordinator"
 promoted: true
 weight: 9

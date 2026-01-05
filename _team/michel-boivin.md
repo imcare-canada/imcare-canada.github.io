@@ -1,6 +1,6 @@
 ---
 title: "Michel Boivin, M.D."
-image: ""
+image: "images/team/placeholder.png"
 jobtitle: "Critical Care Specialist"
 promoted: true
 weight: 4

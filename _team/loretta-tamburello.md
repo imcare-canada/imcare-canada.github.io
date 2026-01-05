@@ -1,6 +1,6 @@
 ---
 title: "Loretta Tamburello"
-image: ""
+image: "images/team/placeholder.png"
 jobtitle: "Reception Coordinator"
 promoted: true
 weight: 9
