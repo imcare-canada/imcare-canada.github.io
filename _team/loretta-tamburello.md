@@ -6,4 +6,4 @@ promoted: true
 weight: 9
 ---
 
-Loretta joined the IMCare team in 2024.
+Loretta joined the IMCare team in 2025.

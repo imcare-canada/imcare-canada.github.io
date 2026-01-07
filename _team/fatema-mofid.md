@@ -6,4 +6,4 @@ promoted: true
 weight: 9
 ---
 
-Fatema joined the IMCare team in 2024.
+Fatema joined the IMCare team in 2025.

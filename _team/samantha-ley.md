@@ -6,4 +6,4 @@ promoted: true
 weight: 9
 ---
 
-Samantha joined the IMCare team in 2024.
+Samantha joined the IMCare team in 2025.

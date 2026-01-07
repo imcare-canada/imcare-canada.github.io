@@ -6,4 +6,4 @@ promoted: true
 weight: 4
 ---
 
-Dr. Adarkwah joined IMCare in 2024.
+Dr. Adarkwah joined IMCare in 2025.
