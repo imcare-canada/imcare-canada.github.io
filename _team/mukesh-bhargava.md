@@ -1,6 +1,6 @@
 ---
 title: "Mukesh Bhargava, M.D."
-image: "images/team/mukesh-bhargava.jpg"
+image: "images/team/mukesh-bhargava.png"
 jobtitle: "Internal Medicine Specialist"
 promoted: true
 weight: 1
