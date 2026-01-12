@@ -1,6 +1,6 @@
 ---
 title: "Obed Adarkwah, M.D."
-image: "images/team/placeholder.png"
+image: "images/team/obed-adarkwah.jpg"
 jobtitle: "Respirologist"
 promoted: true
 weight: 4
