@@ -1,0 +1,10 @@
+# Order and headings for the team page. `id` must match `group:` in team.yml.
+- id: physicians
+  name: "Physicians"
+  blurb: "Our specialists see patients in-person at our Port Hope office and by video."
+- id: clinical
+  name: "Nursing & Diagnostic Staff"
+  blurb: "Our nurses and registered cardiac sonographers perform and support your tests."
+- id: coordinators
+  name: "Medical Coordinators & Reception"
+  blurb: "The people who book your appointments, answer the phone and keep your care moving."

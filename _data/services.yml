@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------------------
+# Services. Each group becomes a section on /services/ and a card on the
+# home page.
+#
+# NOTE FOR REVIEW: the `summary:` and `note:` lines are plain-language
+# descriptions added during the 2026 rebuild. Every service `name:` and
+# `link:` is carried over verbatim from the previous site. Edit or delete
+# any summary/note you don't want — nothing else depends on them.
+# ---------------------------------------------------------------------------
+
+- id: heart
+  name: "Heart & Vascular Care"
+  icon: heart
+  summary: "Cardiac consultation and testing, with our own echocardiography lab on site."
+  intro: "IMCare offers a variety of cardiac services including:"
+  detail: "Echocardiograms are performed in our own echocardiography lab at the Port Hope office by registered cardiac sonographers."
+  items:
+    - name: "Consultations"
+    - name: "Echocardiography"
+      note: "An ultrasound scan of the heart."
+      link: "https://vimeo.com/198499977"
+      link_label: "video"
+    - name: "Holter monitoring"
+      note: "A portable recorder worn at home that tracks your heart rhythm."
+      link: "https://vimeo.com/181705894"
+      link_label: "video"
+    - name: "Exercise cardiac stress testing"
+      note: "Your heart is recorded while you walk on a treadmill."
+      link: "https://vimeo.com/198500638"
+      link_label: "video"
+    - name: "Ambulatory blood pressure monitoring"
+      note: "A cuff worn during daily activity that records your blood pressure."
+      link: "/assets/pdf/IMCare_what_is_ABPM.pdf"
+      link_label: "handout"
+
+- id: skin
+  name: "Medical Skin Care"
+  icon: skin
+  summary: "Assessment and treatment of skin conditions."
+  intro: "IMCare offers a variety of dermatological services including:"
+  items:
+    - name: "Skin cancer screening"
+    - name: "Cryotherapy"
+      note: "Liquid nitrogen treatment."
+    - name: "Patch testing"
+      link: "/assets/pdf/patch_testing.pdf"
+      link_label: "handout"
+    - name: "Skin biopsy"
+    - name: "Bacterial and fungal cultures"
+    - name: "Skin scrapings for microscopic examination"
+    - name: "Wood's light examination"

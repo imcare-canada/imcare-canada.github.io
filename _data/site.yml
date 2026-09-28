@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# Site-wide settings. Safe to edit — nothing here affects layout or code.
+# ---------------------------------------------------------------------------
+
+# Colour scheme. Choose either "crimson" or "clinical".
+palette: crimson
+
+practice_name: "IMCare"
+tagline: "Internal Medicine specialists in Port Hope, Ontario"
+
+# Clinic hours. `note` appears underneath wherever the hours are shown.
+hours:
+  summary: "Monday to Friday, 9:00 am – 5:00 pm"
+  note: "By appointment only."
+  holidays: "Closed on statutory holidays."
+  days: "Mo,Tu,We,Th,Fr"
+  opens: "09:00"
+  closes: "17:00"
+
+# Shown on the Contact and Directions pages.
+cancellation_notice: "Please give us at least 48 hours' notice to change or cancel an appointment, so we can offer the time to another patient."
+
+phone: "(289) 207-3200"
+phone_link: "+12892073200"
+fax: "(855) 755-7771"
+
+address:
+  line1: "15 Henderson Street"
+  city: "Port Hope"
+  province: "ON"
+  postal_code: "L1A 0C6"
+  landmark: "Located behind the Independent grocer."
+  maps_url: "https://www.google.com/maps/search/?api=1&query=15+Henderson+Street,+Port+Hope,+ON+L1A+0C6"
+
+# The Ocean / CognisantMD patient portal used for secure messaging.
+secure_message_url: "https://ocean.cognisantmd.com/intake/patients.html?eReqRef=2638cce1-20df-4ec3-a828-aaf88f0844c0#/eRequest"
+
+# Dr. Bhargava's Substack. Delete this whole block to remove the link from
+# the website — it disappears from the Patient Tools page, the About page and
+# the footer at the same time.
+substack:
+  url: "https://beyondtheheartline.substack.com/"
+  title: "Beyond the Heartline"
+  byline: "Dr. Bhargava's newsletter"
+  blurb: "A newsletter exploring the intersection of medicine, technology, and human experience, written by a physician passionate about AI, creativity, and compassionate care."
+  link_text: "Read Beyond the Heartline"
+
+referral_form: "/assets/pdf/IMCare_referral_form.pdf"
+privacy_policy_pdf: "/assets/pdf/IMCare_privacy_policy.pdf"
+letter_to_patients: "/assets/pdf/IMCare_letter_to_patients.pdf"
+
+founded: "IMCare was founded in 2012 in Cobourg, Ontario by Dr. Mukesh Bhargava and Dr. Anuja Sharma."

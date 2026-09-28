@@ -1,12 +1,47 @@
-<div class='header'>
-  <div class="container">
-    <div class="logo">
-      <a href="{{ site.url }}"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+{%- assign S = site.data.site -%}
+<header class="site-header">
+  <div class="wrap header-bar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/images/logo/imcare-logo.png' | relative_url }}" alt="IMCare — home" width="455" height="160">
+      <span class="brand-sub">Internal Medicine specialists, Port Hope</span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      {%- for item in site.data.nav.main -%}
+      <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.name }}</a>
+      {%- endfor -%}
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-call" href="tel:{{ S.phone_link }}">
+        {% include icon.html name="phone" %}<span>{{ S.phone }}</span>
+      </a>
+      <a class="btn btn--primary btn--sm" href="{{ S.secure_message_url }}" target="_blank" rel="noopener">
+        {% include icon.html name="message" %}Secure message
+      </a>
     </div>
-    <div class="logo-mobile">
-      <a href="{{ site.url }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
-    </div>
-    {% include main-menu.html %}
-    {% include hamburger.html %}
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="bars"><span></span><span></span><span></span></span>
+      <span>Menu</span>
+    </button>
   </div>
-</div>
+
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <div class="wrap">
+      <ul>
+        {%- for item in site.data.nav.main -%}
+        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.name }}</a></li>
+        {%- endfor -%}
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="{{ S.secure_message_url }}" target="_blank" rel="noopener">
+          {% include icon.html name="message" %}Send a secure message
+        </a>
+        <a class="btn btn--outline" href="tel:{{ S.phone_link }}">
+          {% include icon.html name="phone" %}Call {{ S.phone }}
+        </a>
+      </div>
+    </div>
+  </div>
+</header>

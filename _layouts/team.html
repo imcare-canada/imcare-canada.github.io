@@ -1,15 +1,41 @@
 ---
 layout: default
-bodyClass: "page-team"
 ---
-
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
-      <div class="team team-single">
-        <h1 class="title">{{page.title}}</h1>
-        <div class="content">{{content}}</div>
-      </div>
-    </div>
+<div class="page-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">/</span> Our Team</p>
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
   </div>
 </div>
+
+<div class="section">
+  <div class="wrap">
+    {%- for group in site.data.team_groups -%}
+    {%- assign members = site.data.team | where_exp: "p", "p.group == group.id" -%}
+    {%- assign visible = members | where_exp: "p", "p.hidden != true" -%}
+    {%- if visible.size > 0 -%}
+    <section class="team-group">
+      <h2>{{ group.name }}</h2>
+      <p>{{ group.blurb }}</p>
+      <div class="grid grid--4" style="margin-top: var(--s4)">
+        {%- for p in visible -%}
+        <article class="person">
+          <img src="{{ '/images/team/' | append: p.photo | relative_url }}" alt="{{ p.name }}" width="640" height="640" loading="lazy">
+          <div class="person-body">
+            <h3 class="person-name">{{ p.name }}</h3>
+            <p class="person-role">{{ p.role }}</p>
+            <p class="person-bio">{{ p.bio }}</p>
+          </div>
+        </article>
+        {%- endfor -%}
+      </div>
+    </section>
+    {%- endif -%}
+    {%- endfor -%}
+
+    <div class="content prose">{{ content }}</div>
+  </div>
+</div>
+
+{% include cta.html %}

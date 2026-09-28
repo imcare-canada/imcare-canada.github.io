@@ -1,51 +1,31 @@
-# baseurl:
+# ---------------------------------------------------------------------------
+# Jekyll configuration. GitHub Pages reads this file when it builds the site.
+# Day-to-day content edits do NOT belong here — see _data/site.yml instead.
+# ---------------------------------------------------------------------------
+
+title: "IMCare"
+description: "IMCare is an Internal Medicine specialist practice in Port Hope, Ontario. Cardiac and skin care, in-person and virtually, with our own echocardiography lab."
+url: "https://imcare.ca"
+lang: en-CA
+
+# Production is served from the domain root, not a project subfolder.
+baseurl: ""
+
 permalink: pretty
-title: 'IMCare'
-
-logo:
-  mobile: "images/logo/imcare_logo.png"
-  mobile_height: "50px"
-  # mobile_width: "50px"
-  desktop: "images/logo/imcare_logo.png"
-  desktop_height: "65px"
-  # desktop_width: "120px"
-
-home: 
-  limit_services: 6
-
-collections:
-  services:
-    output: true
-    sort_by: weight
-  team:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
+timezone: America/Toronto
 
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
 
 plugins:
-  - jekyll-environment-variables
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - LICENSE.md
-  - LICENSE
   - README.md
+  - EDITING.md
+  - CONTENT-REVIEW.md
+  - vendor
+  - node_modules

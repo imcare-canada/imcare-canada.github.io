@@ -1,45 +1,42 @@
 ---
-title: Directions 
-layout: primary
-description: Directions
-permalink: "/directions/"
-intro_image_absolute: false
-intro_image_hide_on_mobile: false
-head_content: |
-    # Getting to <span style='color: #9d2940'>IMCare</span>.
-
-    ## Our office is in Port Hope, Ontario. We look forward to seeing you!
+layout: page
+title: Directions
+heading: "Getting to IMCare"
+lede: "Our office is in Port Hope, Ontario. We look forward to seeing you."
+description: "Directions to IMCare at 15 Henderson Street, Port Hope, Ontario, with map and parking information."
+wide: true
 ---
-<!-- <div class="col-12 col-md-6 mb-1 home-modules">
-<div class="service service-summary">
-    <div class="service-content">
-    <h2 class="service-title">Cobourg Office</h2>
-    <p>
-        Tel. 289-207-3200<br>
-        Fax. 855-755-7771<br>
-        1000 DePalma Drive<br>
-        Cobourg ON K9A 5W6
-    </p>
-    <i>Located inside Northumberland Hills Hospital.</i>
-    <br>
-    <br>
-    </div>
-</div>
-</div> -->
 
-<!-- <div class="col-12 col-md-6 mb-1 home-modules"> -->
-<div class="service service-summary">
-    <div class="service-content">
-    <h2 class="service-title">Port Hope Office</h2>
-    <p>
-        Tel. 289-207-3200<br>
-        Fax. 855-755-7771<br>
-        15 Henderson Street<br>
-        Port Hope ON L1A 0C6
-    </p>
-    <i>Located behind Independent grocer.</i>
-    </div>
+{%- assign S = site.data.site -%}
+
+<div class="info-grid" style="margin-bottom: var(--s5)">
+  <div class="info-card">
+    <h3>{% include icon.html name="pin" %} Port Hope Office</h3>
+    <ul class="detail-list">
+      <li><span class="k">Address</span><span class="v">{{ S.address.line1 }}<br>{{ S.address.city }} {{ S.address.province }} {{ S.address.postal_code }}</span></li>
+      <li><span class="k">Telephone</span><span class="v"><a href="tel:{{ S.phone_link }}">{{ S.phone }}</a></span></li>
+      <li><span class="k">Fax</span><span class="v">{{ S.fax }}</span></li>
+    </ul>
+    <p style="margin-top:1rem"><em>{{ S.address.landmark }}</em></p>
+    <p><a class="btn btn--outline btn--sm" href="{{ S.address.maps_url }}" target="_blank" rel="noopener">{% include icon.html name="external" %} Open in Google Maps</a></p>
+  </div>
+  <div class="info-card">
+    <h3>{% include icon.html name="clock" %} Hours</h3>
+    <ul class="detail-list">
+      <li><span class="k">Open</span><span class="v">{{ S.hours.summary }}</span></li>
+      <li><span class="k">Booking</span><span class="v" style="font-weight:400">{{ S.hours.note }}</span></li>
+      <li><span class="k">Holidays</span><span class="v" style="font-weight:400">{{ S.hours.holidays }}</span></li>
+    </ul>
+    <p style="margin-top:1rem">Please bring your health card, a list of your current medications, and any test results or letters you have been given.</p>
+    <p><strong>{{ S.cancellation_notice }}</strong></p>
+  </div>
 </div>
-<br>
-<div style="max-width:100%;overflow:hidden;color:red;width:750px;height:500px;"><div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=IMCare,+Henderson+Street,+Port+Hope,+ON,+Canada&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="our-googlemap-code" href="https://kbj9qpmy.com/bp" id="grab-maps-authorization">Internet Provider</a><style>#google-maps-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
-<!-- </div> -->
+
+<div class="map-frame">
+  <iframe
+    title="Map showing IMCare at 15 Henderson Street, Port Hope, Ontario"
+    src="https://www.google.com/maps?q=15+Henderson+Street,+Port+Hope,+ON+L1A+0C6&output=embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen></iframe>
+</div>

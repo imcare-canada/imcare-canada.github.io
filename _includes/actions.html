@@ -1,0 +1,19 @@
+{%- assign S = site.data.site -%}
+<section class="actions" aria-label="Quick actions">
+  <div class="wrap">
+    <div class="actions-grid">
+      <a class="action" href="{{ S.secure_message_url }}" target="_blank" rel="noopener">
+        {% include icon.html name="message" %}
+        <span><b>Send a secure message</b><span>Message your healthcare provider through the patient portal.</span></span>
+      </a>
+      <a class="action" href="tel:{{ S.phone_link }}">
+        {% include icon.html name="phone" %}
+        <span><b>Call {{ S.phone }}</b><span>Phone messages are returned within 2 working days.</span></span>
+      </a>
+      <a class="action" href="{{ '/directions/' | relative_url }}">
+        {% include icon.html name="clock" %}
+        <span><b>{{ S.hours.summary }}</b><span>{{ S.hours.note }} {{ S.hours.holidays }}</span></span>
+      </a>
+    </div>
+  </div>
+</section>

@@ -1,17 +1,22 @@
+---
+layout: null
+permalink: /securemessage/
+redirect_from:
+  - /securemessage.html
+sitemap: false
+---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-CA">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://ocean.cognisantmd.com/intake/patients.html?eReqRef=2638cce1-20df-4ec3-a828-aaf88f0844c0#/eRequest">
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-        // setTimeout(function(){
-            window.location.href = "https://ocean.cognisantmd.com/intake/patients.html?eReqRef=2638cce1-20df-4ec3-a828-aaf88f0844c0#/eRequest";
-        // }, 1);
-    </script>
+  <meta charset="utf-8">
+  <title>Redirecting to secure messaging — IMCare</title>
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0;url={{ site.data.site.secure_message_url }}">
+  <link rel="canonical" href="{{ site.data.site.secure_message_url }}">
+  <script>window.location.replace("{{ site.data.site.secure_message_url }}");</script>
+  <style>body{font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;margin:0;display:grid;place-items:center;min-height:100vh;background:#fbf8f7;color:#1c1614;padding:2rem;text-align:center}a{color:#7d1f33}</style>
 </head>
 <body>
-
-    <p>You are being redirected to <a href="https://ocean.cognisantmd.com/intake/patients.html?eReqRef=2638cce1-20df-4ec3-a828-aaf88f0844c0#/eRequest">our secure messaging system.</a>. If you are not redirected automatically in a few seconds, please click the link.</p>
+  <p>Taking you to <a href="{{ site.data.site.secure_message_url }}">IMCare secure messaging</a>.<br>If nothing happens in a few seconds, please use that link.</p>
 </body>
 </html>

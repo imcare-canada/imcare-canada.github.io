@@ -1,0 +1,91 @@
+---
+layout: default
+---
+<div class="page-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">/</span> Patient Tools</p>
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+  </div>
+</div>
+
+<div class="section">
+  <div class="wrap">
+    <div class="content prose">{{ content }}</div>
+
+    {%- assign SS = site.data.site.substack -%}
+    {%- if SS -%}
+    <aside class="callout callout--substack">
+      <h2>{% include icon.html name="book" %}{{ SS.title }}{% if SS.byline %} <span class="callout-byline">{{ SS.byline }}</span>{% endif %}</h2>
+      <p>{{ SS.blurb }}</p>
+      <p class="callout-action"><a class="btn btn--primary btn--sm" href="{{ SS.url }}" target="_blank" rel="noopener">{{ SS.link_text }} {% include icon.html name="external" %}</a></p>
+    </aside>
+    {%- endif -%}
+
+    <!-- Topic chooser -->
+    <nav class="topic-picker" id="topic-picker" aria-label="Choose a topic">
+      <h2 class="picker-title">What are you looking for?</h2>
+      <ul class="topic-grid">
+        {%- for section in site.data.patient_tools -%}
+        {%- assign count = 0 -%}
+        {%- for sub in section.subsections -%}{%- assign count = count | plus: sub.elements.size -%}{%- endfor -%}
+        <li>
+          <a class="topic-card" href="#{{ section.id }}">
+            <span class="topic-icon">{% include icon.html name=section.icon %}</span>
+            <span class="topic-body">
+              <span class="topic-name">{{ section.name }}</span>
+              <span class="topic-blurb">{{ section.blurb }}</span>
+              <span class="topic-count">{% if count == 1 %}1 thing{% else %}{{ count }} things{% endif %} to read, watch or print</span>
+            </span>
+          </a>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+
+    <!-- Search -->
+    <div class="tools-search">
+      <label for="tool-filter">Or search everything on this page</label>
+      <div class="search-wrap">
+        {% include icon.html name="search" %}
+        <input type="search" id="tool-filter" placeholder="Try: blood pressure, mole, holter" autocomplete="off">
+      </div>
+      <p class="tools-count" id="tool-count" role="status"></p>
+    </div>
+
+    <div id="tool-sections">
+    {%- for section in site.data.patient_tools -%}
+      <section class="tool-section" id="{{ section.id }}" data-section>
+        <div class="tool-section-head">
+          <h2>{% include icon.html name=section.icon %}{{ section.name }}</h2>
+          <p>{{ section.blurb }}</p>
+        </div>
+        <div class="tool-cols">
+          {%- for sub in section.subsections -%}
+          <div data-sub>
+            <h3>{{ sub.name }}</h3>
+            <ul class="tool-list">
+              {%- for el in sub.elements -%}
+              {%- assign is_pdf = el.link | slice: -4, 4 -%}
+              <li data-item data-name="{{ el.name | downcase }} {{ section.name | downcase }}">
+                <a href="{{ el.link | relative_url }}" target="_blank" rel="noopener">
+                  <span>{{ el.name }}</span>
+                  {%- if is_pdf == '.pdf' -%}<span class="kind">PDF</span>
+                  {%- elsif sub.name == 'Watch a short video' -%}<span class="kind">Video</span>
+                  {%- else -%}<span class="kind">Web</span>{%- endif -%}
+                </a>
+              </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+          {%- endfor -%}
+        </div>
+        <p class="back-to-top"><a href="#topic-picker">{% include icon.html name="arrow-right" %} Back to all topics</a></p>
+      </section>
+    {%- endfor -%}
+    </div>
+    <p class="no-results" id="tool-empty" hidden>Nothing matches that word. Try a shorter or simpler one — or clear the box to see everything again.</p>
+  </div>
+</div>
+
+{% include cta.html %}

@@ -1,18 +1,21 @@
 ---
-title:  Privacy Policy
-layout: primary
-description: We are Internal Medicine specialists based in Port Hope, Ontario, Canada.
-# intro_image: "images/stock-medical.jpg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
-show_call_box: false
-head_content: |
-
+layout: page
+title: Privacy Policy
+heading: "Privacy at IMCare"
+lede: "How we protect your personal health information."
+description: "IMCare's privacy policy and information about how your personal health information is protected."
+permalink: "/privacy-policy/"
 ---
 
+Your personal health information is confidential. IMCare's full privacy policy is available as a PDF document.
 
-## Privacy Policy
-IMCare was founded in 2012 in Cobourg, Ontario by Dr. Mukesh Bhargava and Dr. Anuja Sharma. Our staff and healthcare professionals strive for excellence in the care of their patients. Our physicians specialize in providing care to adults with focus on cardiovascular diseases, skin diseases, diabetes, TIA, and stroke. 
+<p><a class="btn btn--primary" href="{{ site.data.site.privacy_policy_pdf | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="file" %} Read the IMCare privacy policy (PDF)</a></p>
 
+## Related documents
 
+- [QuickChart privacy poster (PDF)]({{ '/assets/pdf/IMCare_Quick_Chart_Privacy_Poster.pdf' | relative_url }})
+- [Letter to patients (PDF)]({{ site.data.site.letter_to_patients | relative_url }})
 
+## Questions about your information
+
+If you have a question about how your health information is handled, please [contact the office]({{ '/contact/' | relative_url }}) and ask to speak with our privacy contact.

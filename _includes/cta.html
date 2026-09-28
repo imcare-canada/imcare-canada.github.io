@@ -1,0 +1,15 @@
+{%- assign S = site.data.site -%}
+<section class="cta-band">
+  <div class="wrap">
+    <div>
+      <h2>{{ include.title | default: "Questions about your care?" }}</h2>
+      <p>{{ include.text | default: "Please don't hesitate to contact us. The fastest way to reach your healthcare provider is through the secure patient portal." }}</p>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn--primary" href="{{ S.secure_message_url }}" target="_blank" rel="noopener">
+        {% include icon.html name="message" %}Secure message
+      </a>
+      <a class="btn btn--ghost" href="{{ '/contact/' | relative_url }}">Contact us</a>
+    </div>
+  </div>
+</section>

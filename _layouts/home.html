@@ -1,83 +1,90 @@
 ---
 layout: default
-bodyClass: "page-home"
 ---
+{%- assign S = site.data.site -%}
 
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ page.head_content | markdownify }}
-        {% if page.show_call_box %}
-        {% include call.html show_button=true %}
-        {% endif %}
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Port Hope, Ontario</p>
+        <h1>Specialist care, close to&nbsp;home at <span class="accent">IMCare</span></h1>
+        <p class="hero-sub">We are Internal Medicine specialists based in Port Hope, Ontario. We see patients in-person and virtually.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="{{ S.secure_message_url }}" target="_blank" rel="noopener">
+            {% include icon.html name="message" %}Send a secure message
+          </a>
+          <a class="btn btn--outline" href="{{ '/services/' | relative_url }}">See our services</a>
+        </div>
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}"
-          class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
-          src="{{ page.intro_image | relURL }}" />
-      </div>
-      {% endif %}
-
-    </div>
-    <br>
-    <br>
-    <div class="strip" style="padding-top: 0px !important;">
-      <div class="container pt-6 pb-6 pb-md-10">
-        <div class="row justify-content-start">
-          {{ content }}
+      <div class="hero-media">
+        <img src="{{ '/images/clinic-hero.jpg' | relative_url }}" alt="" width="1480" height="832" fetchpriority="high">
+        <div class="hero-badge">
+          <strong>New here?</strong>
+          <span>Ask your family doctor to fax a referral to {{ S.fax }}, or <a href="{{ S.referral_form | relative_url }}" target="_blank" rel="noopener">download our referral form</a>.</span>
         </div>
       </div>
     </div>
-
   </div>
-</div>
+</section>
 
-<!-- 
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
+{% include actions.html %}
+
+<section class="section">
+  <div class="wrap">
+    <div class="prose" style="margin-bottom: var(--s5)">
+      <p class="eyebrow">What we do</p>
+      <h2>Our areas of specialist care</h2>
+      <p class="lede">We provide a variety of services at IMCare. We are dedicated to providing the highest possible quality of care.</p>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
+    {%- assign svc = site.data.services -%}
+    <div class="grid {% if svc.size == 2 %}grid--2{% else %}grid--3{% endif %}">
+      {%- for group in svc -%}
+      <a class="card card--link" href="{{ '/services/' | relative_url }}#{{ group.id }}">
+        <span class="card-icon">{% include icon.html name=group.icon %}</span>
+        <h3>{{ group.name }}</h3>
+        <p>{{ group.summary }}</p>
+        <span class="card-more">See what's included {% include icon.html name="arrow-right" %}</span>
+      </a>
+      {%- endfor -%}
     </div>
   </div>
-</div>
+</section>
 
-{% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
+<section class="section section--tint">
+  <div class="wrap">
+    <div class="prose" style="margin-bottom: var(--s5)">
+      <p class="eyebrow">About IMCare</p>
+      <h2>Dedicated to the highest quality of care</h2>
+      <div class="content">{{ content }}</div>
+    </div>
+    <div class="grid grid--3">
+      {%- for point in site.data.about_points -%}
+      <div class="card">
+        <span class="card-icon">{% include icon.html name=point.icon %}</span>
+        <h3>{{ point.title }}</h3>
+        <p>{{ point.body }}</p>
       </div>
-      {% endfor %}
-
+      {%- endfor -%}
     </div>
   </div>
-</div> -->
-{% endif %}
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="prose center" style="margin: 0 auto var(--s5)">
+      <p class="eyebrow">Words from our patients</p>
+      <h2>What people tell us</h2>
+    </div>
+    <div class="quotes">
+      {%- for t in site.data.testimonials limit: 6 -%}
+      <figure class="quote">
+        <blockquote>&ldquo;{{ t.quote }}&rdquo;</blockquote>
+        <figcaption>{{ t.author }} <span style="font-weight:400">({{ t.role }})</span></figcaption>
+      </figure>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% include cta.html %}

@@ -1,0 +1,209 @@
+# ---------------------------------------------------------------------------
+# The IMCare team. Bios are carried over word-for-word from the previous site.
+#
+# To hide someone from the site, add:      hidden: true
+# To show someone again, delete that line (or set it to false).
+# To add someone new, copy an existing block, change the details, and put a
+# 640x640 photo in images/team/ named to match the `photo:` value.
+#
+# `group` must be one of the group ids listed in _data/team_groups.yml.
+# ---------------------------------------------------------------------------
+
+- name: "Mukesh Bhargava, M.D."
+  role: "Internal Medicine Specialist"
+  group: physicians
+  photo: "mukesh-bhargava.jpg"
+  bio: "Dr. Bhargava has been practicing since 1996, and co-founded IMCare in 2012. His clinical interests include heart disease, vascular neurology, and diabetes. He is passionate about integrative medicine and wellness."
+
+- name: "Anuja Sharma, M.D."
+  role: "Internal Medicine Specialist"
+  group: physicians
+  photo: "anuja-sharma.jpg"
+  bio: "Dr. Anuja Sharma has practiced medicine since 1996 and co-founded IMCare in 2012. Her clinical focus is diagnosing and treating skin disease, with a special interest in dermoscopy. She teaches dermoscopy to physicians and trainees. She sees patients with severe osteoporosis. She is not accepting new patients for thyroid disorders or inflammatory arthritis. Outside of work, she enjoys reading, hiking, travel, and stargazing."
+
+- name: "Behtash Saeidi, M.D., M.P.H."
+  role: "Internal Medicine Specialist"
+  group: physicians
+  photo: "behtash-saeidi.jpg"
+  bio: "Dr. Saeidi joined our team of specialists at Heart Care and IMCare in April 2021. He completed his residency training in Internal Medicine at Maimonides Medical Center in Brooklyn, New York, and his fellowship in Hospital Medicine at the University Health Network (UHN) / University of Toronto. He is board certified in Internal Medicine by the American Board of Internal Medicine and the College of Physicians and Surgeons of Ontario."
+
+- name: "Rishi Bhargava, M.D."
+  role: "Cardiologist"
+  group: physicians
+  photo: "rishi-bhargava.jpg"
+  bio: "Dr. Rishi Bhargava joined IMCare in 2019. He is a Cardiologist and Internal Medicine Specialist. He has offices in Oshawa and Cobourg."
+
+- name: "Michel Boivin, M.D."
+  role: "Critical Care Specialist"
+  group: physicians
+  photo: "michel-boivin.jpg"
+  bio: "Dr. Michel Boivin received his medical degree from McGill University and completed internal medicine residency there. He completed a critical care fellowship at the University of New Mexico. While there Dr. Boivin underwent training in echocardiography including trans-esophageal echocardiography, and first completed the National Board of Echocardiography examination in 2013 and again in 2023. Dr. Boivin is a well known expert in teaching advanced echocardiography and trans-esophageal echocardiography in critical care and has presented and taught at numerous international conferences. He has numerous published articles and book chapters related to ultrasound. Currently Dr. Boivin works as an intensive care doctor and internal medicine specialist at NHH."
+
+- name: "Obed Adarkwah, M.D."
+  role: "Respirologist"
+  group: physicians
+  photo: "obed-adarkwah.jpg"
+  hidden: true
+  bio: "Dr. Adarkwah joined IMCare in 2025."
+
+- name: "Cathy Stafford, RN"
+  role: "Cardiac Nurse"
+  group: clinical
+  photo: "cathy-stafford.jpg"
+  bio: "Cathy is a Registered Nurse with IMCare. She joined IMCare in 2012."
+
+- name: "Kelsey Elchuk, RN"
+  role: "Cardiac Nurse"
+  group: clinical
+  photo: "kelsey-elchuk.jpg"
+  bio: "Kelsey is a Registered Nurse with IMCare. She joined the team in 2022."
+
+- name: "Khaled Ali"
+  role: "Cardiac Sonographer"
+  group: clinical
+  photo: "khaled-ali.jpg"
+  bio: "Khaled is a registered cardiac sonographer who joined the IMCare team in 2021. Khaled is the Technical Director of the Echo Lab."
+
+- name: "Lyailya Yermekbayeva"
+  role: "Cardiac Sonographer"
+  group: clinical
+  photo: "lyailya-yermekbayeva.jpg"
+  bio: "Lyailya is an ARDMS certified cardiac sonographer. She is proficient in imaging the heart. She has been at IMCare since 2014."
+
+- name: "Victoria Gukova"
+  role: "Cardiac Sonographer"
+  group: clinical
+  photo: "victoria-gukova.jpg"
+  bio: "Victoria is a registered cardiac sonographer who joined the IMCare team in 2019."
+
+- name: "Fatema Mofid"
+  role: "Cardiac Sonographer"
+  group: clinical
+  photo: "fatema-mofid.jpg"
+  bio: "Fatema joined the IMCare team in 2025."
+
+- name: "Tania Lycett"
+  role: "Chief Medical Coordinator"
+  group: coordinators
+  photo: "tania-lycett.jpg"
+  bio: "Tania works closely with Dr. Bhargava and is the Chief coordinator at IMCare since 2013. She inspires the IMCare team to be active and have an awesome attitude."
+
+- name: "Renalyn Cabajar"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "renalyn-cabajar.jpg"
+  bio: "Renalyn is a medical coordinator who works closely with Dr. Sharma. She joined the IMCare team in 2018."
+
+- name: "Kerri McClure"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "kerri-mcclure.jpg"
+  bio: "Kerri is a medical coordinator at IMCare. She works at the IMCare testing lab. Kerri joined our team in 2023."
+
+- name: "Samantha Ley"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "samantha-ley.jpg"
+  bio: "Samantha joined the IMCare team in 2025."
+
+- name: "Sehrish Shawl"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "sehrish-shawl.jpg"
+  bio: "Sehrish joined the IMCare team in 2025."
+
+- name: "Shelly Cole"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "shelly-cole.jpg"
+  bio: "Shelly joined the IMCare team in 2025."
+
+- name: "Simran Jeet"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "simran-jeet.jpg"
+  hidden: true
+  bio: "Simran joined the IMCare team in 2025."
+
+# ---------------------------------------------------------------------------
+# Below: team members whose profiles were switched off on the previous site.
+# Their photos and bios are preserved. Delete the `hidden: true` line to put
+# anyone back on the website.
+# ---------------------------------------------------------------------------
+
+- name: "Darius Seidler, M.D., F.R.C.P.C."
+  role: "Respirologist"
+  group: physicians
+  photo: "darius-seidler.jpg"
+  hidden: true
+  bio: "Dr. Seidler is a specialist who holds board certification from the Royal College of Physicians and Surgeons of Canada and American Board of Internal Medicine (ABIM) in Internal Medicine and is ABIM board certified and CPSO recognized in Respirology and Critical Care. He completed his residency in Internal Medicine at Norwalk Hospital, Yale University School of Medicine and his fellowship in Respirology and Critical Care at Dartmouth-Hitchcock Medical Center, USA. He has been in practice since 2017 and joined IMCare in 2022. Dr. Seidler's areas of interest include: asthma, chronic cough, COPD, interstitial lung disease and shortness of breath."
+
+- name: "Khalid Pasha, M.D."
+  role: "Cardiologist"
+  group: physicians
+  photo: "khalid-pasha.jpg"
+  hidden: true
+  bio: "Dr. Pasha is a cardiologist and Toronto native who returned home to begin his practice and is keen on being a valuable member of the local community. Dr. Pasha is published in renowned medical journals and has presented his findings at international medical conferences."
+
+- name: "Natasha Thompson, RPN"
+  role: "Cardiac Nurse"
+  group: clinical
+  photo: "natasha-thompson.jpg"
+  hidden: true
+  bio: "Natasha is a registered practical nurse who joined the IMCare team in 2021."
+
+- name: "Kaitlin Dizon"
+  role: "Cardiac Sonographer"
+  group: clinical
+  photo: "kaitlin-dizon.jpg"
+  hidden: true
+  bio: "Kaitlin is a registered cardiac sonographer. She joined the IMCare team in 2023."
+
+- name: "Sohayla Arabi"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "sohayla-arabi.jpg"
+  hidden: true
+  bio: "Sohayla is Medical Coordinator and our ECG & Holter tech. She joined the IMCare team in 2023."
+
+- name: "Kathleen Bowles"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "kathleen-bowles.jpg"
+  hidden: true
+  bio: "Kathleen works closely with Dr. Sharma. She joined the IMCare team in 2021."
+
+- name: "Sarah Saunders"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "sarah-saunders.jpg"
+  hidden: true
+  bio: "Sarah Saunders is a medical coordinator who joined the IMCare team in 2022."
+
+- name: "Shannon Murphy"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "shannon-murphy.jpg"
+  hidden: true
+  bio: "Shannon is a medical coordinator and receptionist. She joined the IMCare team in 2021."
+
+- name: "Darla Murphy"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "darla-murphy.jpg"
+  hidden: true
+  bio: "Darla is a medical coordinator and works closely with Dr. Bhargava. She joined the team in 2023. Darla is caring and compassionate and loves to make people laugh with her great sense of humor."
+
+- name: "Kathy Boon"
+  role: "Medical Coordinator"
+  group: coordinators
+  photo: "kathy-boon.jpg"
+  hidden: true
+  bio: "Kathy is a medical coordinator at IMCare. She works at the IMCare front desk. Kathy joined our team in 2023."
+
+- name: "Loretta Tamburello"
+  role: "Reception Coordinator"
+  group: coordinators
+  photo: "loretta-tamburello.jpg"
+  hidden: true
+  bio: "Loretta joined the IMCare team in 2025."

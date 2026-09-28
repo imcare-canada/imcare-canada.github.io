@@ -1,0 +1,21 @@
+# The five "About IMCare" points, carried over word-for-word from the previous
+# home page. Shown as cards on the home page.
+- title: "Specialist Care"
+  icon: users
+  body: "IMCare's Specialists are dedicated to providing patients with continuous and comprehensive care. They address a wide range of health concerns, from acute illnesses to chronic conditions, and work closely with their patients to develop personalized care plans."
+
+- title: "Specialist Referrals"
+  icon: file
+  body: "When patients require specialized care, IMCare's network of skilled specialists ensures that they receive the best possible treatment."
+
+- title: "Telemedicine"
+  icon: video
+  body: "In an effort to make healthcare more accessible, IMCare offers telemedicine services that allow patients to consult with their healthcare providers remotely. This convenient service is available for a wide range of non-emergency conditions and follow-up appointments."
+
+- title: "Preventive Care"
+  icon: check
+  body: "IMCare is committed to promoting preventive care. Their proactive approach helps patients maintain their health and avoid potential health issues."
+
+- title: "Diagnostic Services"
+  icon: flask
+  body: "IMCare's state-of-the-art diagnostic facilities provide patients with accurate and timely results, ensuring the appropriate management and treatment of medical conditions. Their diagnostic services include Cardiac Ultrasound (Echocardiography), Exercise Cardiac Stress Testing, Holter Monitoring, Ambulatory Blood Pressure Monitoring, Allergy Patch Testing, and Ankle Brachial Index."

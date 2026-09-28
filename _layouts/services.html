@@ -1,36 +1,44 @@
 ---
 layout: default
-bodyClass: "page-services"
 ---
+<div class="page-head">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">/</span> Services</p>
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+  </div>
+</div>
 
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ content }}
+<div class="section">
+  <div class="wrap">
+    {%- for group in site.data.services -%}
+    <section class="service-block" id="{{ group.id }}">
+      <div class="service-head">
+        <span class="card-icon">{% include icon.html name=group.icon %}</span>
+        <h2>{{ group.name }}</h2>
+        <p>{{ group.intro }}</p>
+        {% if group.detail %}<p class="service-detail">{{ group.detail }}</p>{% endif %}
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
-      </div>
-      {% endif %}
+      <ul class="service-list">
+        {%- for item in group.items -%}
+        <li>
+          <span class="s-name">{{ item.name }}</span>
+          {%- if item.link -%}
+          <a class="tag" href="{{ item.link | relative_url }}" target="_blank" rel="noopener">
+            {% if item.link_label == 'video' %}{% include icon.html name="video" %}{% else %}{% include icon.html name="file" %}{% endif %}{{ item.link_label }}
+          </a>
+          {%- endif -%}
+          {%- if item.note %}<span class="s-note">{{ item.note }}</span>{% endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    </section>
+    {%- endfor -%}
+
+    <div class="content prose" style="margin-top: var(--s5)">
+      {{ content }}
     </div>
   </div>
 </div>
 
-<div class="container pt-6 pb-6">
-  <div class="row">
-    {% for service in site.services %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+{% include cta.html %}
