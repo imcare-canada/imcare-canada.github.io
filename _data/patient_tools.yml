@@ -41,12 +41,14 @@
           link: https://vimeo.com/ondemand/forksoverknives
     - name: "Handouts to print"
       elements:
+        - name: "Your guide to getting the best care (IMCare)"
+          link: /assets/pdf/IMCare_guide_to_getting_the_best_care.pdf
         - name: "When should I call? A symptom checklist"
           link: /assets/pdf/symptom_recognition_checklist.pdf
         - name: "Becoming smoke free"
           link: /assets/pdf/become_smoke_free.pdf
-        - name: "The Portfolio Diet — eating to lower cholesterol"
-          link: /assets/pdf/portfolio_diet.pdf
+        - name: "The Portfolio Diet — eating to lower cholesterol (IMCare)"
+          link: /assets/pdf/IMCare_portfolio_diet.pdf
 
 - id: heart
   name: "Heart Disease"
@@ -153,6 +155,10 @@
           link: /assets/pdf/control_your_diabetes.pdf
         - name: "Managing your weight"
           link: /assets/pdf/control_your_weight.pdf
+        - name: "Eating less potassium — for high potassium (hyperkalemia) (IMCare)"
+          link: /assets/pdf/IMCare_low_potassium_diet.pdf
+        - name: "Eating more potassium — for low potassium (hypokalemia) (IMCare)"
+          link: /assets/pdf/IMCare_potassium_rich_diet.pdf
 
 - id: skin
   name: "Skin & Hair"
@@ -239,5 +245,5 @@
           link: /assets/pdf/IMCare_stress_echo_instructions.pdf
         - name: "Wearing a Holter monitor"
           link: /assets/pdf/IMCare_understanding_holter_monitoring.pdf
-        - name: "24-hour blood pressure monitoring (ABPM)"
-          link: /assets/pdf/IMCare_what_is_ABPM.pdf
+        - name: "24-hour blood pressure monitoring (ABPM) (IMCare)"
+          link: /assets/pdf/IMCare_ABPM_24_hour_blood_pressure.pdf
